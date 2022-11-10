@@ -1,0 +1,97 @@
+body{
+    /* text-align: center; */
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid black; */
+}
+
+#top-heading{
+
+    font-size: 3rem;
+    color:rgb(76, 74, 74);
+    margin-top: 2rem;
+
+
+}
+
+#contact-div{
+    /* min-width: 300px; */
+    width:40%;
+    /* border:2px solid black; */
+}
+
+#contact-div li{
+    height: 2rem;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: rgb(98, 76, 225);
+    list-style: none;
+    border-bottom: 3px solid black;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact .details{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+.contact .delete-btn{
+    width:10%;
+    margin-top: 3px;
+}
+
+
+
+.details span{
+    /* color:rgb(235, 200, 120); */
+    color:beige;
+    font-weight: 600;
+    font-size: large;
+}
+
+#contact-div li:hover{
+    background-color: rgb(176, 176, 155);
+}
+
+.delete-btn i{
+    /* background-color: red; */
+    color:red;
+}
+
+.delete-btn i:hover{
+    color: rgb(23, 2, 2);
+}
+
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+#submit{
+    background-color: black;
+    color:white;
+    font-weight: 700;
+    height:2rem;
+}
+
+#submit:hover{
+    /* background-color: white; */
+    color:rgb(201, 153, 91);
+}
